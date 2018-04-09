@@ -2,23 +2,27 @@
   href: https://www.cocacolabelgium.be/nl
   src: images/sponsors/coca-cola.jpg
   alt: Coca Cola
-  columns: four
+  columns: five
 -
   href: http://www.bondmoyson.be
   src: images/sponsors/bond-moyson.png
   alt: Bond Moyson
-  columns: four
+  columns: five
 -
   href: http://www.gentsestudentenraad.be
   src: images/sponsors/gsr.jpg
   alt: Gentse Studentenraad
-  columns: four
+  columns: five
 -
   href: http://www.maes.be
   src: images/sponsors/maes.png
   alt: Maes
-  columns: four
-
+  columns: five
+-
+  href: http://www.peterman.be
+  src: images/sponsors/peterman.jpg
+  alt: Peterman
+  columns: five
 
 # -
 #   href: http://www.upkot.be/
