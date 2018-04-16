@@ -1,35 +1,43 @@
 
 ---
 -
-  description: "Kom verkleed als je favoriete huis en snel je op de tonen van 'Rains of Castamere' naar de finish!"
+  description: "And who are you, the proud lord say, that I must bow so low. Kom verkleed in het thema van je favoriete huis en laat de andere huizen voor jou buigen!"
   name: "Ronde of Thrones"
   time: 10u00
 -
-  description: "Rock, house, hard-style... Kom verkleed als je favoriete muziekstijl en misschien loop jij komende festivalzomer wel rond met splinternieuwe oordopjes!"
+  description: "Rock, house, hard-style... Tover je om in je favoriete muziekstijl en misschien loop jij komende festivalzomer wel rond met splinternieuwe oordopjes!"
   name: "Bond Moyson-ronde"
   time: 11u00
 -
-  description: "Ooit al eens in je marginaalste outfit over het Sint-Pietersplein willen lopen? Dit is je kans! Verkleed je zo marginaal mogelijk en geef je team een extra zetje!"
+  description: "Menseuh, menseeeuh! Ooit al eens in je marginaalste outfit over het Sint-Pietersplein willen lopen? Dit is je kans! Verkleed je zo marginaal mogelijk en geef jouw team een extra zetje!"
   name: "Koeke-ronde"
   time: 12u00
 -
-  description: "Want op 1 been kan je niet staan!"
+  description: "2 is altijd beter dan 1! Kijk maar naar Bert & Ernie, peper & zout, … Sta met 2 deelnemers paraat aan de start en wij zorgen voor de verrassing. Kleine tip: Op 1 been kan je niet staan!"
   name: "Duo-ronde"
   time: 13u00
 -
-  description: "Zei er iemand shotjes !? Wie met het grootste aantal shotjes intact over de finish komt, wordt rijkelijk beloond. "
+  description: "Zei er iemand shotjes !? Wie als eerste met het grootste aantal intacte shotjes over de finish komt, zal rijkelijk worden beloond."
   name: "Walk like a gentleman powered by Peterman"
   time: 14u00
 -
-  description: "Pintje voor mij, aub! Snel met je volle pint naar finish, mors niet teveel en win een fantastisch Maes pakket!"
+  description: "Een pintje voor mij, aub! Haast je met je volle pint naar finish, mors niet teveel en win een fantastisch Maes pakket! "
   name: "Maes-ronde"
   time: 15u00
+-
+  description: "Win een surfreis ter waarde van 350 euro! Hoe? Trek een outfit aan waar de beach vibes van af spatten en vergeet je surfplank niet!"
+  name: "Surfers Paradise"
+  time: 15u30
 -
   description: "Wanneer mag ik u eens binnenvallen? Kom in je beste legeroutfit en misschien win jij wel een heel Poliakov pakket!"
   name: "Polen vs. Russen powered by Poliakov"
   time: 16u00
 -
-  description: "De welgekende klassieker: eet zo snel mogelijk een Julientje en spurt daarna naar de overwinning."
+  description: "Knutsel een originele tweewieler in elkaar waarmee je denkt de meest legendarische ronde van Gent, die rond het Sint-Pietersplein, te overleven! Wie weet, win je wel …"
+  name: "Tour de Gand"
+  time: 16u30
+-
+  description: "De beruchte klassieker: eet zo snel mogelijk een Julientje en spurt daarna naar de overwinning."
   name: "Julientjes-ronde"
   time: 17u00
 -
@@ -39,8 +47,7 @@
 -
   description: "Hoe minder textiel, hoe beter!"
   name: "Schaars-geklede-vrouwen ronde"
-  time: 18u00
+  time: 19u00
 -
-  description: "Draag je praeses op een zo origineel mogelijke manier rond het plein."
-  name: "Draag-de-praeses ronde"
+  description: "Kom op een paard,kameel, zeepkist,… en draag je praeses op een zo origineel mogelijke manier naar de finish!
   time: 20u00
