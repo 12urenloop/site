@@ -13,3 +13,13 @@ Things you might wanna do:
 - `bundle install`
 
 Then run the code with `bundle exec nanoc` or `bundle exec nanoc live`.
+
+## Things to update across editions:
+
+- Contact information
+- Date and place
+- Copyright footer
+- Animation
+- Sponsors
+- Team
+- Winners previous edition (home)

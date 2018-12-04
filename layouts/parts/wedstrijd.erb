@@ -17,8 +17,8 @@
 
       <% teams = data_from(:teams) %>
       <% offset = (teams.length/2.0).ceil %>
-      <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] %>
-      <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[(teams.length/2.0).ceil..teams.length] %>
+      <%# <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] >
+      <%# <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[(teams.length/2.0).ceil..teams.length] %>
     </div>
 
     <div class='eight columns'>
@@ -50,8 +50,8 @@
 
   <div class='container'>
     <% special_rounds = data_from(:special_rounds) %>
-    <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[0..5] %>
-    <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[6..12] %>
+    <%# <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[0..5] %>
+    <%# <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[6..12] %>
   </div>
 
   <div class='sixteen columns action'>
