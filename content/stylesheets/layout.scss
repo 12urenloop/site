@@ -504,10 +504,11 @@ p.mid-text {
     cursor: pointer;
     margin-bottom: 20px;
     line-height: 0;
-    padding: 3px 4px 0 4px;
     font-family: 'Source Sans Pro', sans-serif;
     width: 100px;
-    height: 24px;
+    height: 26px;
+    padding: 0;
+    text-align: center;
 }
 
 .contact-form input.submit-button:hover {
