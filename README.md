@@ -14,7 +14,9 @@ Things you might wanna do:
 
 Then run the code with `bundle exec nanoc` or `bundle exec nanoc live`.
 
-## Things to update across editions:
+Deploy with `bundle exec nanoc deploy`.
+
+## Things to update across editions
 
 - Contact information
 - Date and place
