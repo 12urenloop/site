@@ -1,54 +1,46 @@
 
 ---
 -
-  description: "And who are you, the proud lord say, that I must bow so low. Kom verkleed in het thema van je favoriete huis en laat de andere huizen voor jou buigen!"
-  name: "Ronde of Thrones"
+  description: "Droom jij ook al van die langverwachte zomer? Wat is jouw ideale vakantiebestemming? Maak het ons tijdens dit rondje duidelijk en wie weet mag jij van Route du Soleil met je beste vriend(in) naar het Balaton Sound Festival!"
+  name: "Route du monde"
   time: 10u00
 -
-  description: "Rock, house, hard-style... Tover je om in je favoriete muziekstijl en misschien loop jij komende festivalzomer wel rond met splinternieuwe oordopjes!"
-  name: "Bond Moyson-ronde"
+  description: "Bert en Ernie, Samson & Gert ... Samen is véél leuker dan alleen, zolang je elkaar maar goed VASThoudt. De rest zal aan de startlijn wel duidelijk worden!"
+  name: "Iconische duo-ronde"
   time: 11u00
 -
-  description: "Menseuh, menseeeuh! Ooit al eens in je marginaalste outfit over het Sint-Pietersplein willen lopen? Dit is je kans! Verkleed je zo marginaal mogelijk en geef jouw team een extra zetje!"
-  name: "Koeke-ronde"
+  description: "‘Is het glas nu half-leeg of half-vol?’ Zorg maar dat jij met de helft van je beker als eerste over de finish komt en wie weet hoef je je over deze levensvraag in de toekomst geen zorgen meer te maken!"
+  name: "Maes-ronde"
   time: 12u00
 -
-  description: "2 is altijd beter dan 1! Kijk maar naar Bert & Ernie, peper & zout, … Sta met 2 deelnemers paraat aan de start en wij zorgen voor de verrassing. Kleine tip: Op 1 been kan je niet staan!"
-  name: "Duo-ronde"
+  description: "“2 woorden: Bad Boy Brody Baby” ... Euh?? Kan jij deze gouden jongen evenaren? Heb jij ook dat charisma, die tattoo’s? Haal die ‘margi-festival-outfit’ maar boven en wie weet kan jij deze zomer genieten van op maat gemaakte Bond Moyson oordoppen!"
+  name: "Locoloco-ronde"
   time: 13u00
 -
-  description: "Zei er iemand shotjes !? Wie als eerste met het grootste aantal intacte shotjes over de finish komt, zal rijkelijk worden beloond."
-  name: "Walk like a gentleman powered by Peterman"
+  description: "Het concept is simpel: sla dat shotje achterover en zorg dat je niet te veel last krijgt van dat heerlijke brandende gevoel in je keel. Maak zo kans op nog meer van deze godendrank!"
+  name: "Poliakov-ronde"
   time: 14u00
 -
-  description: "Een pintje voor mij, aub! Haast je met je volle pint naar finish, mors niet teveel en win een fantastisch Maes pakket! "
-  name: "Maes-ronde"
+  description: "Ben jij al een heel jaar lang aan het trainen voor die summerbody? Verlang je niets liever dan te kunnen rondparaderen op het strand met die strakke buik of die brede schouders? Geef ons al eens een voorproefje van die summervibes en ga naar huis met een Stadium fitnessabonnement!!"
+  name: "Baywatch"
   time: 15u00
 -
-  description: "Win een surfreis ter waarde van 350 euro! Hoe? Trek een outfit aan waar de beach vibes van af spatten en vergeet je surfplank niet!"
-  name: "Surfers Paradise powered by Flowtrack"
-  time: 15u30
--
-  description: "Wanneer mag ik u eens binnenvallen? Kom in je beste legeroutfit en misschien win jij wel een heel Poliakov pakket!"
-  name: "Polen vs. Russen powered by Poliakov"
+  description: "Het is al duidelijk welke de beste studentenstad is van België, maar welke faculteit laat zich van hun mooiste kant zien? Maak duidelijk wat je studeert of achter welk bureau we jullie later kunnen terugvinden!"
+  name: "This is us"
   time: 16u00
 -
-  description: "Trommel je innerlijke Sven Nys op, test je fietsenkennis en doe een poging naar de winst in de legendarische ronde van Gent, die op het Sint-Pietersplein! Wij voorzien de fietsen, jullie de koersbenen."
-  name: "Tour de Gand powered by Swapfiets"
-  time: 16u30
--
-  description: "De beruchte klassieker: eet zo snel mogelijk een Julientje en spurt daarna naar de overwinning."
+  description: "Classic: prop dat Julientje binnen en loop nadien als eerste over de finish!"
   name: "Julientjes-ronde"
   time: 17u00
 -
-  description: "Hoe minder textiel, hoe beter!"
-  name: "Schaars-geklede-mannen ronde"
+  description: "Hoe minder je aan hebt, hoe beter!"
+  name: "Schaars-geklede-vrouwen-ronde"
   time: 18u00
 -
-  description: "Hoe minder textiel, hoe beter!"
-  name: "Schaars-geklede-vrouwen ronde"
+  description: "No discrimination: weg met die kleren!"
+  name: "Schaars-geklede-mannen-ronde"
   time: 19u00
 -
-  description: "Kom op een paard,kameel, zeepkist,… en draag je praeses op een zo origineel mogelijke manier naar de finish!"
+  description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter!"
   name: "Draag-de-praeses ronde"
   time: 20u00

@@ -15,7 +15,7 @@
         apotheose en de prijsuitreiking van IFK.
       </p>
 
-      <div>
+      <div class="container">
         <% teams = data_from(:teams) %>
         <% offset = (teams.length/2.0).ceil %>
         <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] %>
@@ -53,8 +53,8 @@
 
   <div class='container'>
     <% special_rounds = data_from(:special_rounds) %>
-    <%# <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[0..5] %>
-    <%# <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[6..12] %>
+    <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[0..4] %>
+    <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[5..12] %>
   </div>
 
   <div class='sixteen columns action'>
