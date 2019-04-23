@@ -15,22 +15,25 @@
         apotheose en de prijsuitreiking van IFK.
       </p>
 
-      <% teams = data_from(:teams) %>
-      <% offset = (teams.length/2.0).ceil %>
-      <%# <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] >
-      <%# <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[(teams.length/2.0).ceil..teams.length] %>
-    <p class='white justify'>
-      Elk uur is er ook een speciale ronde. Deze ludieke rondes gaan door tussen de loopwedstrijd
-      zelf maar pas op, de uitvoering is vaak belangrijker dan de snelheid van de
-      loper! De beste(n) van elke ronde worden beloond met naturaprijzen
-      geschonken door onze sponsors.
-    </p>
+      <div>
+        <% teams = data_from(:teams) %>
+        <% offset = (teams.length/2.0).ceil %>
+        <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] %>
+        <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[(teams.length/2.0).ceil..teams.length] %>
+      </div>
 
-    <p class='white justify'>
-      Dankzij de digitale rondetelling van <a href='http://zeus.ugent.be/'>Zeus</a>
-      is het mogelijk om tijdens de wedstrijd live het klassement te volgen.
-      Na het evenement maken zij ook ook de eindscores bekend.
-    </p>
+      <p class='white justify'>
+        Elk uur is er ook een speciale ronde. Deze ludieke rondes gaan door tussen de loopwedstrijd
+        zelf maar pas op, de uitvoering is vaak belangrijker dan de snelheid van de
+        loper! De beste(n) van elke ronde worden beloond met naturaprijzen
+        geschonken door onze sponsors.
+      </p>
+
+      <p class='white justify'>
+        Dankzij de digitale rondetelling van <a href='http://zeus.ugent.be/'>Zeus</a>
+        is het mogelijk om tijdens de wedstrijd live het klassement te volgen.
+        Na het evenement maken zij ook ook de eindscores bekend.
+       </p>
     </div>
 
     <div class='eight columns'>
