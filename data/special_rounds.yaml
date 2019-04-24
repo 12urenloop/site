@@ -25,12 +25,12 @@
   name: "Baywatch"
   time: 15u00
 -
-  description: "Het is al duidelijk welke de beste studentenstad is van België, maar welke faculteit laat zich van hun mooiste kant zien? Maak duidelijk wat je studeert of achter welk bureau we jullie later kunnen terugvinden!"
-  name: "This is us"
-  time: 16u00
--
   description: "Classic: prop dat Julientje binnen en loop nadien als eerste over de finish!"
   name: "Julientjes-ronde"
+  time: 16u00
+-
+  description: "Het is al duidelijk welke de beste studentenstad is van België, maar welke faculteit laat zich van hun mooiste kant zien? Maak duidelijk wat je studeert of achter welk bureau we jullie later kunnen terugvinden!"
+  name: "This is us"
   time: 17u00
 -
   description: "Hoe minder je aan hebt, hoe beter!"
