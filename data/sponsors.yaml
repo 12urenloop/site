@@ -2,28 +2,26 @@
   href: https://pepsi.be/
   src: images/sponsors/pepsi.png
   alt: Pepsi
-  columns: five
 -
   href: http://www.bondmoyson.be
   src: images/sponsors/bond-moyson.png
   alt: Bond Moyson
-  columns: five
 -
   href: http://www.gentsestudentenraad.be
   src: images/sponsors/gsr.jpg
   alt: Gentse Studentenraad
-  columns: five
 -
   href: http://www.maes.be
   src: images/sponsors/maes.png
   alt: Maes
-  columns: five
 -
   href: http://www.peterman.be
   src: images/sponsors/peterman.jpg
   alt: Peterman
-  columns: five
-
+-
+  href: https://www.ae.be/
+  src: images/sponsors/ae.png
+  alt: AE
 # -
 #   href: http://www.upkot.be/
 #   src: images/sponsors/UPKOT.jpg
