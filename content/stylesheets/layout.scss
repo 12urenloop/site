@@ -33,6 +33,14 @@ h2.white {
     color: #fff;
 }
 
+h2.yellow {
+    color: #fc0;
+}
+
+h2.blue {
+  color: #2c2ca0
+}
+
 span.lines {
     border-top: 1px solid #aeaeae;
     border-bottom: 1px solid #aeaeae;
@@ -64,6 +72,13 @@ h5 {
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
+    color: #fff;
+}
+
+h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     color: #fff;
 }
 
@@ -167,6 +182,32 @@ a[name]:before {
 .button2:hover {
     color: #e8e8e8;
     background: #3a3a3a;
+    border: 0;
+}
+
+.button3 {
+    background: #2c2ca0;
+    border: 0;
+    color: #fc0;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: normal;
+    padding: 8px 18px;
+    margin-top: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.button3.live{
+    font-size: 20px;
+}
+
+.button3:hover {
+    color: #2c2ca0;
+    background: #fc0;
     border: 0;
 }
 
@@ -335,9 +376,14 @@ nav a:hover {
 }
 
 .social-intro {
-    margin-top: 40px;
-    position: relative;
-    z-index: 150;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    //margin-top: 40px;
+    //position: relative;
+    //z-index: 150;
 }
 
 .social-intro ul li {
@@ -346,7 +392,7 @@ nav a:hover {
 
 .social-intro a {
     display: inline-block;
-    width: 220px; height: 40px;
+    width: 240px; height: 40px;
     padding-left: 20px;
     margin: 0 10px 10px 10px;
 
@@ -366,13 +412,21 @@ nav a:hover {
     border: 1px solid #ccc;
 }
 
+a.social-instagram {
+    background: #fccc63 url('../images/icn-instagram-intro2.png') no-repeat 5px center;
+    background-size: 30px 30px;
+    border: 1px solid #fccc63;
+}
+
 a.social-twitter {
     background: #7ad2f4 url('../images/icn-twitter-intro.png') no-repeat 5px center;
+    background-size: 30px 30px;
     border: 1px solid #7ad2f4;
 }
 
 a.social-facebook {
     background: #39599f url('../images/icn-facebook-intro.png') no-repeat 5px center;
+    background-size: 30px 30px;
     border: 1px solid #39599f;
 }
 
@@ -453,6 +507,8 @@ p.mid-text {
 }
 
 .contact-form {
+    width: 80%;
+    padding-left: 10%;
     position: relative;
     z-index: 300;
     margin-top: 20px;
@@ -467,7 +523,7 @@ p.mid-text {
 }
 
 .contact-form input {
-    background: url(../images/cont-form-bg.jpg) repeat;
+    background: #858585;
     width: 98%;
     height: 28px;
     margin-bottom: 10px;
@@ -480,7 +536,7 @@ p.mid-text {
 }
 
 .contact-form textarea {
-    background: url(../images/cont-form-bg.jpg) repeat;
+    background: #858585;
     margin-bottom: 10px;
     padding-left: 5px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -519,6 +575,7 @@ p.mid-text {
 
 .contact-info {
     margin-top: 20px;
+    float: right
 }
 
 .contact-info h5 {
@@ -532,11 +589,17 @@ p.mid-text {
 
 .social {
     padding-top: 15px;
+    text-align: center;
 }
 
 .social ul li {
     display: inline;
     margin-right: 5px;
+}
+
+.social img {
+    width:30px;
+    height:30px;
 }
 
 .social img:hover {
