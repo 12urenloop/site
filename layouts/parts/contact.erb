@@ -2,14 +2,15 @@
   <div class='container'>
 
     <div class='sixteen columns'>
-      <h2 class='white'><span class='lines'>Contact</span></h2>
+      <h2 class='yellow'><span class='lines'>Contact</span></h2>
     </div>
 
     <div class='clear'></div>
 
-    <div class='eight columns'>
+    <div class='sixteen columns'>
       <div class='contact-form'>
-
+        <h6>Vragen of opmerkingen? Vul gerust onderstaande formulier in en wij antwoorden zo snel mogelijk.</h6>
+        <br  />
         <div class='done'>
           <b>Bedankt!</b> We hebben je bericht ontvangen.
         </div>
@@ -26,30 +27,36 @@
 
           <input type='submit' id='submit' value='Verzenden' class='submit-button' />
         </form>
+      </div>
+    </div>
 
-      </div> <!-- end contact-form -->
-    </div> <!-- end eight columns -->
+    <div class='clear'></div>
 
     <div class='eight columns'>
-
-      <div class='contact-info'>
-
         <h5>Contact Info</h5>
 
+        <!-- <p class='white' style="padding-left: 20px">
+          <strong style="margin-left: -20px">Coördinatoren 12urenloop</strong><br />
+          <!% data_from(:contact).each do |c| %>
+            <!%= c['function'] %> &mdash; <!%= c['name'] %><br />
+          <!% end %>
+        </p> -->
+    </div>
+
+    <div class='six columns' style='float: right'>
+      <br />
+      <br />
+
+      <div class='contact-info'>
         <p class='white'>
-        <strong>Coördinatoren 12urenloop-comité</strong><br />
-        <% data_from(:contact).each do |c| %>
-          <%= c['function'] %> &mdash; <%= c['name'] %><br />
-        <% end %>
+          <i class="material-icons" style="vertical-align: middle;">mail</i>
+          <a href='mailto:info@12urenloop.be'>info@12urenloop.be</a>
         </p>
         <p class='white'>
-        <img src='images/icn-email.png' alt='' />
-        <a href='mailto:info@12urenloop.be'>info@12urenloop.be</a>
-        </p>
-        <p class='white'>
-          <img src='images/icn-address.png' alt='' />
+          <i class="material-icons" style="vertical-align: middle;">home</i>
           Hoveniersberg 24, 9000 Gent
         </p>
+
         <p class='white'>
           <strong>Factuur gegevens</strong><br />
           <pre class='white'>
@@ -59,12 +66,15 @@
           </pre>
         </p>
       </div> <!-- end contact-info -->
+    </div>
 
+    <div class='sixteen columns'>
       <div class='social'>
         <ul>
-          <li><a href='https://twitter.com/12urenloopGent' target='_blank'><img src='images/icn-twitter2.png' alt='' /></a></li>
-          <li><a href='https://www.facebook.com/12urenloop' target='_blank'><img src='images/icn-facebook2.png' alt='' /></a></li>
-          <li><a href='https://www.linkedin.com/company/gentse-12urenloop' target='_blank'><img src='images/icn-linkedin.png' alt='' /></a></li>
+          <li><a href='https://instagram.com/12urenloop' target='_blank'><img src='images/icn-instagram-grey.svg' alt='Follow us on Instagram' title='Follow us on Instagram' size='30px'/></a></li>
+          <li><a href='https://twitter.com/12urenloopGent' target='_blank'><img src='images/icn-twitter-grey.svg' alt='Folow us on Twitter' title='Follow us on Twitter' size='30px'/></a></li>
+          <li><a href='https://www.facebook.com/12urenloop' target='_blank'><img src='images/icn-facebook-grey.svg' alt='Follow us on Facebook' title='Follow us on Facebook' size='30px'/></a></li>
+          <li><a href='https://www.linkedin.com/company/gentse-12urenloop' target='_blank'><img src='images/icn-linkedin-grey2.svg' alt='follow us on LinkedIn' title='Follow us on LinkedIn size='30px'/></a></li>
         </ul>
       </div> <!-- end social -->
 
@@ -74,7 +84,7 @@
 
     <div class='sixteen columns'>
       <div class='copyright'>
-        <p>Foto's met dank aan Katrien Verhoeye, <a href='https://www.facebook.com/eventphotographyarthurnevejan'>Arthur Nevejan</a> en <a href='https://www.facebook.com/Fotonaat.be'>Fotonaat</a><br />&copy; 2013-2019 12urenloop</p>
+        <p><i class="material-icons" style="vertical-align: middle;">camera_alt</i> by <a href='https://www.studiophie.com/'>StudioPhie</a> and <a href='https://www.mircophoto.com/'>Mirco Photo</a><br />&copy; 2013-<%= Time.now.year %> 12urenloop</p>
       </div>
     </div>
 

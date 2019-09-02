@@ -2,14 +2,38 @@
   <div class='container'>
 
     <div class='sixteen columns'>
-      <h2><span class='lines'>Animatie</span></h2>
+      <h2 class='blue'><span class='lines'>Animatie</span></h2>
+
+      <p style="text-align: center; font-weight: bold">
+        Voor wie even genoeg heeft van al dat lopen .... er zijn ook andere bezigheden, al dan niet met een sportief kantje.
+      </p>
     </div>
+
+
 
     <div class='eight columns'>
       <% render '/parts/animation/dj-contest.*' %>
 
+      <h3><span class='lines'>SFEER BEHEER</span></h3>
+
+      <p class="justify">
+        Niks beter dan wat ochtendgymnastiek om de dag te beginnen. Een paar ware duracellkonijnen vol energie zorgen ervoor dat elke spier in je lijf wordt opgewarmd.
+        Ook in de namiddag volgt een sessie want stretchen is belangrijk om de mogelijke krampen te vermijden.
+      </p>
+      <p>
+        Daarnaast zorgen een reeks (partner)standen voor een boel vermaak zodat er altijd iets te beleven valt.
+        Laat je bijvoorbeeld omtoveren tot de mooiste bij, speel een sportief spel of rust uit op het terras.
+      </p>
+
+
       <h3><span class='lines'>Multimedia</span></h3>
 
+      <p class="justify">
+          Zoek en vind onze fotograaf en geef hem/haar je beste poses en kom terecht in ons mooie collectie plaatjes.
+          Verder houden wij je tijdens de dag op de hoogte via onze social media kanalen.
+      </p>
+
+      <!--
       <p class="justify">
         <a href='http://www.urgent.fm'>Urgent.fm</a> zal dit jaar opnieuw aanwezig zijn.
         Je hoort er toffe interviews en het laatste nieuws over de 12urenloop.
@@ -19,17 +43,7 @@
         Ook <a href='http://schamper.ugent.be'>Schamper</a> verhuist zijn
         redactie voor een dag en houdt je de hele dag door up-to-date via de
         sociale media.
-      </p>
-
-      <h3><span class='lines'>Fakbars</span></h3>
-
-      <p class="justify">
-        Elke studentenvereniging die deelneemt aan de 12urenloop zet voor de
-        gelegenheid ook een eigen fakbar op poten op het <%= item[:location] %>
-        met voordelige drankjes, snacks en een toffe sfeer.
-      </p>
-
-      <div id="photo-column"><p><img src='images/animatie/fakbars.jpg' class='scale-with-grid' alt='Fakbar geografica' /></p></div>
+      </p> -->
 
       <!--
         <div style='text-align: center;'>
@@ -46,29 +60,51 @@ function popUp(URL) {
     </div>
 
     <div class='eight columns'>
-      <h3><span class='lines'>UNIEKE SFEER</span></h3>
+
+      <h3><span class='lines'>Fakbars</span></h3>
+
+      <p class="justify">
+        Elke studentenvereniging die deelneemt aan de 12urenloop zet voor de
+        gelegenheid ook een eigen fakbar op poten op het <%= item[:location] %>
+        met voordelige drankjes, snacks en meer.
+      </p>
+
+      <h3><span class='lines'>DANSEN DANSEN</span></h3>
 
        <p class="justify">
-        Onder het motto 'voor ieder wat wils' selecteerden we enkele mooie namen
-        opdat het Sint-Pietersplein reeds voorbereid is op het feestje dat vanaf
-        9u start.
+         Lopen of gewoon wat chillen gaat zoveel beter met de juiste achtergrondmuziek.
+         In de ochtendlijke uren plakken wij zelf de plaatjes aan elkaar. In de namiddag geven we de fakkel door aan de ervaren lui.
+         Een reeks mooie namen en opkomend talent houden de sfeer erin richting de afterparty.
       </p>
-      <table class='schedule'>
-        <% data_from(:afterparty).each do |a| %>
-          <tr>
-            <th><%= a['time'] %></th>
-            <td><%= a['description'] %></td>
-          </tr>
-        <% end %>
-      </table>
+
+      <% if item[:party] %>
+        <table class='schedule'>
+          <% data_from(:afterparty).each do |a| %>
+            <tr>
+              <th><%= a['time'] %></th>
+              <td><%= a['description'] %></td>
+            </tr>
+          <% end %>
+        </table>
+      <% else %>
+        <p class=''>
+          De line-up voor dit jaar wordt later bekend gemaakt. Had jij graag op ons podium gestaan? Geef ons een seintje.
+        </p>
+      <% end %>
     </div>
 
-    <!-- <div class='clear'></div> -->
+    <div class='sixteen columns'>
+      <div class='container' style='max-width: 500px'>
+        <div class='flexslider'>
+          <ul class='slides'>
+            <% data_from(:animatieslider).each do |img| %>
+              <li><img src='<%= img['src'] %>' alt='' /></li>
+            <% end %>
+          </ul>
+        </div><!-- end flexslider -->
+      </div>
+    </div>
 
-    <!-- <div id="photo-row">
-      <div id="photo-column"><p><img src='images/animatie/fakbars.jpg' class='scale-with-grid' alt='Fakbar geografica' /></p></div>
-      <div id="photo-column"><p><img src='images/animatie/afterparty.jpg' class='scale-with-grid' alt='Afterparty' /></p></div>
-    </div> -->
 
   </div> <!-- end container -->
 </div> <!-- end about -->
