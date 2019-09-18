@@ -73,6 +73,3 @@ DEPENDENCIES
   guard-nanoc
   nanoc (= 4.4.2)
   sass
-
-BUNDLED WITH
-   1.17.1
