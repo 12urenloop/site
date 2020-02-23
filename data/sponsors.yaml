@@ -10,14 +10,14 @@
   href: http://www.maes.be
   src: images/sponsors/maes.png
   alt: Maes
--
-  href: http://www.peterman.be
-  src: images/sponsors/peterman.jpg
-  alt: Peterman
--
-  href: https://www.ae.be/
-  src: images/sponsors/ae.png
-  alt: AE
+#-
+#  href: http://www.peterman.be
+#  src: images/sponsors/peterman.jpg
+#  alt: Peterman
+#-
+#  href: https://www.ae.be/
+#  src: images/sponsors/ae.png
+#  alt: AE
 # -
 #   href: http://www.upkot.be/
 #   src: images/sponsors/UPKOT.jpg
