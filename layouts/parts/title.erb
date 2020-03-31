@@ -9,8 +9,12 @@
     <% if item[:show_recruitment] %>
       <a class='button3' href='https://join.12urenloop.be'>Join the crew!</a>
     <% end %>
-    <% if item[:show_countdown] %>
+    <% if item[:show_seeyouthere] %>
       <h1 class='small'>See you there</h1>
+    <% end %>
+    <% if item[:show_cancelled] %>
+      <h1 >CANCELLED</h1>
+      <h1 class='small' style='margin-top: -20px;'>See you back next year!</h1>
     <% end %>
     <%= render '/parts/countdown.erb' if item[:show_countdown] %>
     <% if item[:show_livelink] %>
