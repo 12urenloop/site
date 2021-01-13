@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  web:
+    build: .
+    ports:
+    - "8080:80"
+    logging:
+      options:
+        max-size: "100m"
+        max-file: "5"
