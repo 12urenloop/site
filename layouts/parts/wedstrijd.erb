@@ -5,17 +5,11 @@
     <div class='eight columns white'>
       <p class="justify">
         De 12urenloop is een wedstrijd waarbij verschillende kringen het tegen elkaar
-        opnemen in een 12 uur durende loopestafette. De looprichting in
-        tegenwijzerzin is er om de atleten onder ons gelukkig te stellen.
+        opnemen in een 12 uur durende loopestafette. Na de loopwedstrijd volgt ook de
+        apotheose ... de prijsuitreiking en een knallend feestje!
       </p>
 
-      <p class="justify">
-        De 12urenloop telt ook mee voor het algemeen klassement van de
-        Interfacultaire Kampioenschappen (IFK). Na de loopwedstrijd volgt ook de
-        apotheose ... de prijsuitreiking!
-      </p>
-
-      <div class="container">
+      <div class="container" style="visibility: hidden">
         <% teams = data_from(:teams) %>
         <% offset = (teams.length/2.0).ceil %>
         <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] %>
