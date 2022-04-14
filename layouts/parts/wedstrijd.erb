@@ -9,11 +9,11 @@
         apotheose ... de prijsuitreiking en een knallend feestje!
       </p>
 
-      <div class="container" style="visibility: hidden">
+      <div class="container">
         <% teams = data_from(:teams) %>
         <% offset = (teams.length/2.0).ceil %>
         <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] %>
-        <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[(teams.length/2.0).ceil..teams.length] %>
+        <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[offset..teams.length] %>
       </div>
     </div>
 
@@ -30,29 +30,31 @@
   </div>
 
   <div class='container'>
-    <div class='sicteen columns white justify'>
+    <div class='sixteen columns white justify'>
     <p>
       In de loop van de dag zijn er ook de speciale rondes. Deze ludieke rondes gaan door tussen de loopwedstrijd
       zelf maar pas op, vaak is de uitvoering belangrijker dan de snelheid! De beste(n) van elke ronde worden beloond met leuke prijzen
       geschonken door een van onze sponsors.
       <br />
-      Oefen dus zeker niet alleen op je looptechniek.
+      Oefen dus zeker niet alleen op je looptechniek.flex
       Train je maag om een Julientje zo snel mogelijk te verorberen, wordt onherkenbaar en ga volledig op in het gevraagde thema met de origineelste aankleding.
     </p>
     </div>
     <br />
     <br />
     <div class='sixteen columns'>
+      <div class='container'>
     <% if item[:rounds] %>
       <% special_rounds = data_from(:special_rounds) %>
       <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[0..4] %>
-      <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[5..12] %>
+      <%= render '/partials/special_rounds.*', t: '&nbsp', rounds: special_rounds[5..10] %>
     <% else %>
       <p class='white justify'>
         <strong>Speciale Rondes <%= item[:year] %></strong> <br />
         De speciale rondes voor deze editie zijn nog niet gekend. Hou zeker deze website of de Facebook pagina in de gaten zodat je ze niet mist!
       </p>
     <% end %>
+    </div>
     </div>
   </div>
 

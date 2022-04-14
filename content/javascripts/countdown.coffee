@@ -12,13 +12,7 @@ countdown = ->
   hours = 0
   minutes = 0
   strings = {}
-  diff = Math.round(moment('2020042909', 'YYYYMMDDHH').diff(moment()) / 1000)
-
-  weeks = Math.floor diff / 604800
-  strings.weeks = pad(weeks.toString(), 2).split('')
-
-  # Substract weeks from diff)
-  diff = diff - (weeks * 604800)
+  diff = Math.round(moment('2022042709', 'YYYYMMDDHH').diff(moment()) / 1000)
 
   # Days
   days = Math.floor diff / 86400

@@ -77,15 +77,13 @@ function popUp(URL) {
          Een reeks mooie namen en opkomend talent houden de sfeer erin richting de afterparty.
       </p>
 
+
       <% if item[:party] %>
-        <table class='schedule'>
-          <% data_from(:afterparty).each do |a| %>
-            <tr>
-              <th><%= a['time'] %></th>
-              <td><%= a['description'] %></td>
-            </tr>
+      <div class="container">
+          <% data_from(:afterparty).each_slice(6) do |a| %>
+          <%= render '/partials/line_up.*', djs: a %>
           <% end %>
-        </table>
+        </div>
       <% else %>
         <p class=''>
           De line-up voor dit jaar wordt later bekend gemaakt. Had jij graag op ons podium gestaan? Geef ons een seintje.

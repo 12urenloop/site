@@ -129,6 +129,10 @@ a[name]:before {
     flex-wrap: wrap;
     justify-content: center;
   }
+  .sponsor.img {
+      max-width: 50%;
+    }
+  
 }
 
 .button1,input[type="submit"],input[type="reset"],input[type="button"] {

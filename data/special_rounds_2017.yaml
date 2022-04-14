@@ -1,98 +1,46 @@
 
 ---
 -
-  description: "Loop zo snel mogelijk een rondje. Powered by KBC."
-  name: "KBC_ronde"
-  time: 9u30
+  description: "Slaapkop of wat te lang in de overpoort blijven plakken? Geen probleem! Rol gewoon uit bed en kom deze eerste speciale ronde in je leukste pyjama-outfit en slaapwandel je weg begeleid naar de finish."
+  name: "Pyama Ronde"
+  time: 10u
 -
-  description: "'I can the bells ringing!' Maak van deze ronde een zo romantisch en origineel mogelijke trouwfeest!"
-  name: "Trouw ronde"
-  time: 10u30
+  description: "Nog eens een excuus nodig voor jouw favoriete superhelden verkleedkostuum boven te halen? Loop deze ronde dan maar mee en verkleed je als een superheld of superhelden koppel."
+  name: "De Alken-Maes Superhelden Ronde"
+  time: 11u
 -
-  description: "De welgekende klassieker: eet zo snel mogelijk een Julientje en spurt daarna naar de overwinning."
-  name: "Julien ronde"
-  time: 11u30
+  description: "Een toffe, grappige of strenge prof die ook nog eens sportief is en naast zijn uren wilt strijden voor de eer van zijn richting?! Trommel deze dan maar op om je team te komen vertegenwoordigen tijdens de 12urenloop. Zorg ook dat het duidelijk is voor welk team of richting ze lopen."
+  name: "Proffen Ronde"
+  time: 12u
 -
-  description: "Kleed je alsof je het Knokke-Le Zoute-syndroom hebt."
-  name: "Knokke-Le-Zoute-syndroom ronde"
-  time: 12u30
+  description: "Verdedig als Griekse keizer je eigen rijk in het wagenrennen. Steek een creatieve wagen ineen en laat je voorttrekken door je beste “paarden” (lees leden). P.S: keizers dragen altijd een toga."
+  name: "Wagenren Ronde"
+  time: 13u
 -
-  description: "Powered by Belgian Week Surf. Surf zo origineel mogelijk doorheen de ronde!"
-  name: "Wetsuit ronde"
-  time: 13u30
+  description: "Ook genoeg van achter die boeken te zitten? FOK-DE-BLOK! Loop dat maar dit rondje mee en maak zo origineel mogelijk duidelijk (verkleed) dat jouw richting die extra studietijd helemaal niet nodig heeft."
+  name: "Fok-de-Blok Ronde"
+  time: 14u
 -
-  description: "Oplossen van een vraagstukje statistiek? Hopelijk geen probleem voor jullie: los de oefening op en loop daarna zo snel mogelijk een rondje!"
-  name: "Tutorial ronde"
-  time: 14u30
+  description: "Hoog tijd om op te warmen voor de komende festivalzomer! Haal je foutste kamping kitsch outfit met alle bijpassende accessoires al maar boven! Des te meer kitsch des te beter!"
+  name: "Campus Kitsch Ronde"
+  time: 15u
 -
-  description: "Doe mee aan de Festivalexplorers ronde en loop als meest ludieke en flitsende festivalganger als eerste over de meet."
-  name: "Festivalexplorers ronde"
-  time: 15u30
+  description: "Elke Hugo heeft zijn Nicoleke nodig, elke barbeque vraagt voor Devos én Lemmens…! Daarom doen we deze ronde met z'n tweeën! Zet je met je partner in crime, je wederhelft, je Nicole, je Bonny, je Tom, je peper…samen aan de start bij deze ronde en loop als iconisch paar over de streep."
+  name: "Duo Ronde"
+  time: 16u
 -
-  description: "Laat die sixpacks en strakke kontjes maar zien! Bierbuiken ook welkom ;)"
-  name: "Schaars-geklede-mannen ronde"
-  time: 16u30
+  description: "Belgische frietjes en Gent dan doet een Julientje toch een belletje rinkelen! Prop dat Julientje binnen en loop alsnog als eerste over de finish!"
+  name: "Julientjes-Ronde"
+  time: 17u
 -
-  description: "Loop zo snel mogelijk een rondje met shiny Bomber glasses! Winners get to keep the glasses!"
-  name: "Bomber ronde"
-  time: 17u30
--
-  description: "Hoe minder textiel, hoe beter!"
+  description: "Dames! Trek die stoute schoenen aan (en zo weinig mogelijk kleren). Shake what your mama gave ya, bedek net voldoende om geen bekeuring voor openbare zedenschennis te krijgen en loop zo snel mogelijk je rondje uit."
   name: "Schaars-geklede-vrouwen ronde"
-  time: 18u30
+  time: 18u
+-
+  description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning! Laat die sixpacks en strakke kontjes maar zien! Bierbuiken ook welkom ;)"
+  name: "Schaars-geklede-mannen ronde"
+  time: 19u
 -
   description: "Draag je praeses op een zo origineel mogelijke manier rond het plein. Gratis vat voor de winnaar @Tam-Tam"
   name: "Draag-de-praeses ronde"
-  time: 19u30
--
-  description: "Verkleed je als je favoriete jeneversmaak en win jeneverflessen voor je kring!"
-  name: "Peterman ronde"
-  time: 20u30
--
-  description: "Kom verkleed als de mooiste prinses van het hele land. Wie door de vakjury als beste prinses beoordeeld wordt, wint. 1 persoon per loopteam."
-  name: "Prinsessen ronde"
-  time: 9u30
--
-  description: "Vorm een festivalbende van max. 5 personen, gekleed in eenzelfde (herkenbaar) thema/muziekgenre en dans een rondje in dat thema/genre. De origineelste bende wint. 1 inzending per loopteam."
-  name: "Festival Explorers ronde"
-  time: 10u30
--
-  description: "Heb je altijd geweten dat je over een bijzonder talent beschikt? Dat jij niet bent zoals de anderen? Kom dan hier bewijzen dat je spijsverteringsstelsel even sterk is als de tijd waarin je een rondje loopt. Moge de snelste all-round kandidaat winnen. 1 inzending per loopteam. Ps: gratis lunch."
-  name: "Julientjes ronde"
-  time: 11u30
--
-  description: "Na 5 jaar komt de Red Bull Zeepkistenrace terug naar België! Maak jullie eigen zeepkist (minimum voorwaarde: het moet bollen), het Red Bull team kiest de meest originele inzending als winnaar. 1 inzending per loopteam."
-  name: "Red Bull zeepkisten ronde"
-  time: 12u30
--
-  description: "Mannen met baarden in geruite hemden, gespierde vrouwen in strakke witte marcelletjes. De meest overtuigende lumberjack of lumber Jill (ja das is de officiële benaming) wint deze ronde! 1 inzending per loopteam."
-  name: "Lumberjack/jill ronde"
-  time: 13u30
--
-  description: "We halen onze mosterd bij de Number Game zoals gezien in de Britse shows 'Countdown’ en ‘8 Out of 10 Cats Does Countdown’. We kunnen alvast verklappen dat de uitkomst 200 zal zijn. De 6 cijfers om tot die uitkomst te komen, krijg je bij de start. De snelste rekenaar en loper wint. 1 inzending per loopteam"
-  name: "200 jaar UGent ronde"
-  time: 14u30
--
-  description: "In deze tijden van 'Fake News' is het belangrijk dat men de waarheid onderscheidt van de leugen. Voer daarom je beste Mark Peeters-imitatie op en onderricht de mensheid met jouw conspiracytheorie. Het team met de origineelste theorie wint."
-  name: "Schamper ronde"
-  time: 15u30
--
-  description: "Maak uw ouders trots en toon aan dat je ook praktisch-volledig-naakt de snelste loper bent! Openbare zedenschennis wordt bestraft, bedek wat we niet willen zien rondzwaaien tijdens het lopen aub. 1 inzending per loopteam."
-  name: "Schaars-geklede-mannen ronde"
-  time: 16u30
--
-  description: "Hoeden en toverstokken in de aanslag! Wij voorzien jullie van een Nimbus 2000, aan jullie om daar zo snel mogelijk (en verkleed) mee over de finish te vliegen. 1 inzending per loopteam."
-  name: "Tovenaars ronde"
-  time: 17u30
--
-  description: "We zullen nooit weten of het voor deze ronde of gewoon het uur van de dag is, maar rond deze tijd is het altijd verdacht druk op het plein.. Dames: shake what your mama gave ya, bedek net voldoende om geen bekeuring voor openbare zedenschennis te krijgen en loop zo snel mogelijk je rondje uit. 1 inzending per loopteam."
-  name: "Schaars-geklede-vrouwen ronde"
-  time: 18u30
--
-  description: "Tijdens deze ronde dient de praeses een rondje lang op originele wijze gedragen worden. Doe nekeer zot! De meest originele kring wint."
-  name: "Draag-de-praeses ronde"
-  time: 19u30
--
-  description: "De mascotte van onze hoofdsponsor UPKOT is een kip. Meer kunnen we voorlopig nog niet prijsgeven over de inkleding van deze ronde. 1 inzending per loopteam."
-  name: "UpKot ronde"
-  time: 20u30
+  time: 20u

@@ -1,38 +1,38 @@
-#-
-#  href: https://pepsi.be/
-#  src: images/sponsors/pepsi.png
-#  alt: Pepsi
-#-
-#  href: http://www.bondmoyson.be
-#  src: images/sponsors/bond-moyson.png
-#  alt: Bond Moyson
 -
-  href: http://www.maes.be
+  href: https://coca-cola.be/
+  src: images/sponsors/coca-cola2.png
+  alt: Coca-Cola
+  columns: three
+-
+  href: http://www.bondmoyson.be
+  src: images/sponsors/bond-moyson.png
+  alt: Bond Moyson
+  columns: three
+-
+  href: https://www.maes.be
   src: images/sponsors/maes.png
   alt: Maes
-#-
-#  href: http://www.peterman.be
-#  src: images/sponsors/peterman.jpg
-#  alt: Peterman
-#-
-#  href: https://www.ae.be/
-#  src: images/sponsors/ae.png
-#  alt: AE
-# -
-#   href: http://www.upkot.be/
-#   src: images/sponsors/UPKOT.jpg
-#   alt: UPKOT
-#   columns: three
-# -
-#   href: http://www.festivalexplorers.be/
-#   src: images/sponsors/Festival_Explorers.jpg
-#   alt: Festival Explorers
-#   columns: three
-# -
-#   href: http://redbull.be
-#   src: images/sponsors/redbull.jpg
-#   alt: Redbull
-#   columns: three
+  columns: three
+-
+  href: https://www.peterman.be
+  src: images/sponsors/peterman.jpg
+  alt: Peterman
+  columns: three
+-
+  href: https://www.ef.be/
+  src: images/sponsors/ef.png
+  alt: EF
+  columns: three
+-
+  href: https://home.kpmg/be/nl/home.html
+  src: images/sponsors/kpmg.png
+  alt: KPMG Belgium
+  columns: three
+-
+  href: https://redbull.be
+  src: images/sponsors/redbull.jpg
+  alt: Redbull
+  columns: three
 # -
 #   href: https://www.stadium.be/nl
 #   src: images/sponsors/stadium.jpeg

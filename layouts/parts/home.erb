@@ -73,7 +73,7 @@
       </p>
     </div>
 
-    
+
 
     <div class='clear'></div>
 
@@ -88,7 +88,7 @@
     </div>
 
     <div class='sponsors container'>
-      <% data_from(:sponsors).each_slice(6) do |row| %>
+      <% data_from(:sponsors).each_slice(4) do |row| %>
       <%= render '/partials/sponsors.*', sponsors: row %>
       <% end %>
       <br />

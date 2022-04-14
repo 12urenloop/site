@@ -1,7 +1,9 @@
 #countdown {
+  width: 720px;
+
   .two-numbers {
     float: left;
-    width: 25%;
+    width: 33%;
   }
 
   .number {
@@ -52,6 +54,7 @@
   }
 
   @media only screen and (max-width: 479px) {
+    width: 100%;
     .number {
       width: 1em;
       font-size: 2.1em;
