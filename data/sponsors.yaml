@@ -1,12 +1,22 @@
 -
-  href: https://coca-cola.be/
-  src: images/sponsors/coca-cola2.png
-  alt: Coca-Cola
-  columns: three
+  href: http://www.gentsestudentenraad.be
+  src: images/sponsors/gsr.jpg
+  alt: Gentse Studentenraad
+  columns: two
 -
   href: http://www.bondmoyson.be
   src: images/sponsors/bond-moyson.png
   alt: Bond Moyson
+  columns: three
+-
+  href: https://www.ef.be/
+  src: images/sponsors/ef.png
+  alt: EF
+  columns: three
+-
+  href: https://home.kpmg/be/nl/home.html
+  src: images/sponsors/kpmg.png
+  alt: KPMG Belgium
   columns: three
 -
   href: https://www.maes.be
@@ -19,14 +29,9 @@
   alt: Peterman
   columns: three
 -
-  href: https://www.ef.be/
-  src: images/sponsors/ef.png
-  alt: EF
-  columns: three
--
-  href: https://home.kpmg/be/nl/home.html
-  src: images/sponsors/kpmg.png
-  alt: KPMG Belgium
+  href: https://coca-cola.be/
+  src: images/sponsors/coca-cola2.png
+  alt: Coca-Cola
   columns: three
 -
   href: https://redbull.be
