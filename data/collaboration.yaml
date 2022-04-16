@@ -10,9 +10,9 @@
   alt: Associatie UGent
   columns: two
 -
-  href: http://www.gentsestudentenraad.be
-  src: images/sponsors/gsr.jpg
-  alt: Gentse Studentenraad
+  href: http://ugent.be
+  src: images/sponsors/ugent.png
+  alt: Universiteit Gent
   columns: two
 # -
 #   href: http://www.urgent.fm
@@ -25,7 +25,7 @@
 #   alt: Schamper
 #   columns: two
 -
-  href: http://zeus.ugent.be
+  href: https://zeus.ugent.be
   src: images/sponsors/zeus.png
   alt: Zeus WPI
   columns: two

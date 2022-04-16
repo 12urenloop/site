@@ -1,6 +1,6 @@
 <div class='sponsor-row'>
 <% @sponsors.each do |s| %>
-<div class='sponsor'>
+<div class='sponsor' style="width: 120px;">
   <a href='<%= s['href'] %>'>
     <img src='<%= s['src'] %>' alt='<%= s['alt'] %>' <% if s['title'].to_s.length > 0 %> title='<%= s['title'] %> <% end %>'/>
   </a>

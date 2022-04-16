@@ -9,11 +9,13 @@
         apotheose ... de prijsuitreiking en een knallend feestje!
       </p>
 
+      <strong class="white" style="font-size: 16px;">Loopteams</strong>
       <div class="container">
+
         <% teams = data_from(:teams) %>
         <% offset = (teams.length/2.0).ceil %>
-        <%= render '/partials/teams.*', t: 'Loopteams', offset: 0, teams: teams[0..offset-1] %>
-        <%= render '/partials/teams.*', t: '&nbsp;', offset: offset, teams: teams[offset..teams.length] %>
+        <%= render '/partials/teams.*', offset: 0, teams: teams[0..offset-1] %>
+        <%= render '/partials/teams.*', offset: offset, teams: teams[offset..teams.length] %>
       </div>
     </div>
 
@@ -43,11 +45,12 @@
     <br />
     <br />
     <div class='sixteen columns'>
+      <strong class="white" style="font-size: 16px;">Speciale Rondes <%= item[:year] %></strong>
       <div class='container'>
     <% if item[:rounds] %>
       <% special_rounds = data_from(:special_rounds) %>
-      <%= render '/partials/special_rounds.*', t: 'Speciale rondes', rounds: special_rounds[0..4] %>
-      <%= render '/partials/special_rounds.*', t: '&nbsp', rounds: special_rounds[5..10] %>
+      <%= render '/partials/special_rounds.*',  rounds: special_rounds[0..4] %>
+      <%= render '/partials/special_rounds.*', rounds: special_rounds[5..10] %>
     <% else %>
       <p class='white justify'>
         <strong>Speciale Rondes <%= item[:year] %></strong> <br />
