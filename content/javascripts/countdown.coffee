@@ -13,6 +13,8 @@ countdown = ->
   minutes = 0
   strings = {}
   diff = Math.round(moment('2022042709', 'YYYYMMDDHH').diff(moment()) / 1000)
+  if diff < 0
+      diff = 0
 
   # Days
   days = Math.floor diff / 86400
