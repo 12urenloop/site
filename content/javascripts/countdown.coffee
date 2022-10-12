@@ -12,7 +12,7 @@ countdown = ->
   hours = 0
   minutes = 0
   strings = {}
-  diff = Math.round(moment('2022042709', 'YYYYMMDDHH').diff(moment()) / 1000)
+  diff = Math.round(moment('2023042609', 'YYYYMMDDHH').diff(moment()) / 1000)
   if diff < 0
       diff = 0
 
