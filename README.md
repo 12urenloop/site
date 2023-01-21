@@ -14,7 +14,14 @@ Things you might wanna do:
 
 Then run the code with `bundle exec nanoc` or `bundle exec nanoc live`.
 
-Deploy with `bundle exec nanoc deploy`.
+## Deploy
+
+1. SSH to root@asimov
+2. cd ~/12urenloop-site, 
+3. git pull
+4. docker-compose build
+5. docker-compose down && docker-compose up -d
+
 
 ## Things to update across editions
 
