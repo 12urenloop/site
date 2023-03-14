@@ -1,4 +1,4 @@
-function scrollTo(target){
+function smoothScrollTo(target){
   var targetPosition = $(target).offset().top;
   $('html,body').animate({ scrollTop: targetPosition}, 'slow');
 }
