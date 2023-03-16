@@ -6,6 +6,7 @@ gem 'mini_racer'
 
 group :development do
   gem 'adsf'
+  gem "puma", "~> 6.1"
 end
 
 group :nanoc do
