@@ -6,7 +6,7 @@ compile '/**/*.erb' do
 end
 
 compile '/**/*.scss' do
-  filter :sass, syntax: :scss
+  filter :dart_sass, syntax: :scss
 end
 
 compile '/**/*.coffee' do
