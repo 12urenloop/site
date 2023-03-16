@@ -19,6 +19,7 @@ GEM
     execjs (2.8.1)
     ffi (1.15.5)
     formatador (1.1.0)
+    google-protobuf (3.22.2-arm64-darwin)
     google-protobuf (3.22.2-x86_64-linux)
     guard (2.18.0)
       formatador (>= 0.2.4)
@@ -38,6 +39,7 @@ GEM
     hamster (3.0.0)
       concurrent-ruby (~> 1.0)
     json_schema (0.21.0)
+    libv8-node (16.10.0.0-arm64-darwin)
     libv8-node (16.10.0.0-x86_64-linux)
     listen (3.8.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
@@ -103,6 +105,8 @@ GEM
     rb-fsevent (0.11.2)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    sass-embedded (1.59.3-arm64-darwin)
+      google-protobuf (~> 3.21)
     sass-embedded (1.59.3-x86_64-linux-gnu)
       google-protobuf (~> 3.21)
     shellany (0.0.1)
@@ -117,6 +121,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
+  arm64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
