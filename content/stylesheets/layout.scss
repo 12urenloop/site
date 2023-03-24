@@ -379,6 +379,10 @@ nav a:hover {
     z-index: 150;
 }
 
+.title > img {
+  max-width: 18vw;
+}
+
 .social-intro {
     width: 100%;
     text-align: center;
@@ -400,7 +404,7 @@ nav a:hover {
     padding-left: 20px;
     margin: 0 10px 10px 10px;
 
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 39px;
     text-align: center;
     text-decoration: none;
@@ -721,7 +725,7 @@ nav select {
 
     .social-intro a {
         width: 190px; height: 40px;
-        font-size: 18px;
+        font-size: 1.1rem;
         margin: 0 0 10px 10px;
     }
 
@@ -781,7 +785,7 @@ nav select {
 
     .social-intro a {
         width: 140px; height: 26px;
-        font-size: 14px;
+        font-size: 0.7rem;
         line-height: 25px;
         opacity: 1;
         margin: 0 0 10px 10px;
