@@ -1,46 +1,46 @@
 
 ---
 -
-  description: "Slaapkop of wat te lang in de overpoort blijven plakken? Geen probleem! Rol gewoon uit bed en kom deze eerste speciale ronde in je leukste pyjama-outfit en slaapwandel je weg begeleid naar de finish."
-  name: "Pyama Ronde"
+  description: "Haal de IT’er in je naar boven en verkleed je in je favoriete app, website, computervirus, …"
+  name: "digITale ronde"
   time: 10u00
 -
-  description: "Nog eens een excuus nodig voor jouw favoriete superhelden verkleedkostuum boven te halen? Loop deze ronde dan maar mee en verkleed je als een superheld of superhelden koppel."
-  name: "De Alken-Maes Superhelden Ronde"
+  description: "We kijken alvast wat vooruit in de toekomst en richten ons voor deze ronde op de zomer. Draag in deze ronde een outfit die ons helemaal in de vakantiesfeer brengt en hang alvast de toerist uit op het Sint-Pietersplein"
+  name: "Vakantie ronde"
   time: 11u00
 -
-  description: "Een toffe, grappige of strenge prof die ook nog eens sportief is en naast zijn uren wilt strijden voor de eer van zijn richting?! Trommel deze dan maar op om je team te komen vertegenwoordigen tijdens de 12urenloop. Zorg ook dat het duidelijk is voor welk team of richting ze lopen."
-  name: "Proffen Ronde"
+  description: "(Nine) make a rhyme! Voor deze duo ronde is het de bedoeling dat je je verkleed als 2 woorden die op elkaar rijmen, bijvoorbeeld James Bond en Legally Blond. Hoe creatiever, hoe beter."
+  name: "Duo ronde"
   time: 12u00
 -
-  description: "Verdedig als Griekse keizer je eigen rijk in het wagenrennen. Steek een creatieve wagen ineen en laat je voorttrekken door je beste “paarden” (lees leden). P.S: keizers dragen altijd een toga."
-  name: "Wagenren Ronde"
+  description: "Ter ere van de nieuwste smaak voor deze zomer dagen we je uit voor een aardbei-abrikoos-race! Ren met 2 met een aardbei of abrikoos tussen de mond geperst zo snel mogelijk een rondje."
+  name: "Summer Edition ronde"
   time: 13u00
 -
-  description: "Ook genoeg van achter die boeken te zitten? FOK-DE-BLOK! Loop dat maar dit rondje mee en maak zo origineel mogelijk duidelijk (verkleed) dat jouw richting die extra studietijd helemaal niet nodig heeft."
-  name: "Fok-de-Blok Ronde"
+  description: "We’re going on a trip in our favorite rocket ship… maak je klaar voor de missie en bouw een ruimteschip. De ruimteschepen van 12urenloop mogen niet gemotoriseerd en niet breder dan 1.5m zijn. Beoordeling op snelheid (getimed)."
+  name: "Ruimteschip race ronde"
   time: 14u00
 -
-  description: "Hoog tijd om op te warmen voor de komende festivalzomer! Haal je foutste kamping kitsch outfit met alle bijpassende accessoires al maar boven! Des te meer kitsch des te beter!"
-  name: "Campus Kitsch Ronde"
+  description: "Hoe dierbaar is die halve liter voor jou? Heb jij na de eindstreep nog een volle pint over? Kom over de finishlijn met een zo vol mogelijke beker, en brul onderweg je favoriete cantuslliedje. Deze ronde wordt beoordeeld op het hebben van de volste pint aan de finishlijn. Bij een gelijkstand zal er gekeken worden naar wie het snelste was. <br />Tijdslimiet: 2min (indien later binnen maak je geen kans op podium, ookal ben je top 3)."
+  name: "Cantus ronde"
   time: 15u00
 -
-  description: "Elke Hugo heeft zijn Nicoleke nodig, elke barbeque vraagt voor Devos én Lemmens…! Daarom doen we deze ronde met z'n tweeën! Zet je met je partner in crime, je wederhelft, je Nicole, je Bonny, je Tom, je peper…samen aan de start bij deze ronde en loop als iconisch paar over de streep."
-  name: "Duo Ronde"
+  description: "Door welk wezen is jouw studentenvereniging gebrainwasht? Verkleed je zo origineel mogelijk en geniet samen van een buitenaards feestje!"
+  name: "Buitenaardse ronde"
   time: 16u00
 -
-  description: "Belgische frietjes en Gent dan doet een Julientje toch een belletje rinkelen! Prop dat Julientje binnen en loop alsnog als eerste over de finish!"
-  name: "Julientjes-Ronde"
+  description: "De klassieker…. wie finisht er het snelst na het verslinden van een Julientje? Rol of loop jij de ronde uit?"
+  name: "Julientjes ronde"
   time: 17u00
 -
-  description: "Dames! Trek die stoute schoenen aan (en zo weinig mogelijk kleren). Shake what your mama gave ya, bedek net voldoende om geen bekeuring voor openbare zedenschennis te krijgen en loop zo snel mogelijk je rondje uit."
-  name: "Schaars-geklede-vrouwen ronde"
+  description: "Trek die stoute schoenen aan (en zo weinig mogelijk kleren) en probeer die finish als eerste te bereiken."
+  name: "Schaars geklede-vrouwen ronde"
   time: 18u00
 -
-  description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning! Laat die sixpacks en strakke kontjes maar zien! Bierbuiken ook welkom ;)"
-  name: "Schaars-geklede-mannen ronde"
+  description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning!"
+  name: "Schaars geklede-mannen ronde"
   time: 19u00
 -
-  description: "Draag je praeses op een zo origineel mogelijke manier rond het plein. Gratis vat voor de winnaar @Tam-Tam"
+  description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter! Opgelet: loop tijdens deze ronde aan de buitenkant, ook hier zijn er geen motorische voertuigen toegestaan en geldt de maximale breedte van 1,5m!"
   name: "Draag-de-praeses ronde"
   time: 20u00
