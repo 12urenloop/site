@@ -2,45 +2,45 @@
 ---
 -
   description: "Haal de IT’er in je naar boven en verkleed je in je favoriete app, website, computervirus, …"
-  name: "digITale ronde"
+  name: "digITale ronde (sponsored by Inetum Realdolmen)"
   time: 10u00
 -
   description: "We kijken alvast wat vooruit in de toekomst en richten ons voor deze ronde op de zomer. Draag in deze ronde een outfit die ons helemaal in de vakantiesfeer brengt en hang alvast de toerist uit op het Sint-Pietersplein"
-  name: "Vakantie ronde"
+  name: "Vakantie ronde (sponsored by Solidaris)"
   time: 11u00
 -
   description: "(Nine) make a rhyme! Voor deze duo ronde is het de bedoeling dat je je verkleed als 2 woorden die op elkaar rijmen, bijvoorbeeld James Bond en Legally Blond. Hoe creatiever, hoe beter."
-  name: "Duo ronde"
+  name: "Duo ronde (sponsored by Stëlz)"
   time: 12u00
 -
   description: "Ter ere van de nieuwste smaak voor deze zomer dagen we je uit voor een aardbei-abrikoos-race! Ren met 2 met een aardbei of abrikoos tussen de mond geperst zo snel mogelijk een rondje."
-  name: "Summer Edition ronde"
+  name: "Summer Edition ronde (sponsored by Red Bull)"
   time: 13u00
 -
-  description: "We’re going on a trip in our favorite rocket ship… maak je klaar voor de missie en bouw een ruimteschip. De ruimteschepen van 12urenloop mogen niet gemotoriseerd en niet breder dan 1.5m zijn. Beoordeling op snelheid (getimed)."
-  name: "Ruimteschip race ronde"
+  description: "We’re going on a trip in our favorite rocket ship… maak je klaar voor de missie en bouw een ruimteschip. Beoordeling op snelheid (getimed)."
+  name: "Ruimteschip race ronde (sponsored by Peterman)"
   time: 14u00
 -
-  description: "Hoe dierbaar is die halve liter voor jou? Heb jij na de eindstreep nog een volle pint over? Kom over de finishlijn met een zo vol mogelijke beker, en brul onderweg je favoriete cantuslliedje. Deze ronde wordt beoordeeld op het hebben van de volste pint aan de finishlijn. Bij een gelijkstand zal er gekeken worden naar wie het snelste was. <br />Tijdslimiet: 2min (indien later binnen maak je geen kans op podium, ookal ben je top 3)."
-  name: "Cantus ronde"
+  description: "Hoe dierbaar is die halve liter voor jou? Heb jij na de eindstreep nog een volle pint over? Kom over de finishlijn met een zo vol mogelijke beker, en brul onderweg je favoriete cantuslliedje. Deze ronde wordt beoordeeld op het hebben van de volste pint aan de finishlijn. Bij een gelijkstand zal er gekeken worden naar wie het snelste was."
+  name: "Cantus ronde (sponsored by Alken-Maes)"
   time: 15u00
 -
   description: "Door welk wezen is jouw studentenvereniging gebrainwasht? Verkleed je zo origineel mogelijk en geniet samen van een buitenaards feestje!"
-  name: "Buitenaardse ronde"
+  name: "Buitenaardse ronde (sponsored by AG Insurance)"
   time: 16u00
 -
   description: "De klassieker…. wie finisht er het snelst na het verslinden van een Julientje? Rol of loop jij de ronde uit?"
-  name: "Julientjes ronde"
+  name: "Julientjes ronde (sponsored by Stefano’s Place)"
   time: 17u00
 -
   description: "Trek die stoute schoenen aan (en zo weinig mogelijk kleren) en probeer die finish als eerste te bereiken."
-  name: "Schaars geklede-vrouwen ronde"
+  name: "Schaars geklede-vrouwen ronde (sponsored by EasyToys)"
   time: 18u00
 -
   description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning!"
-  name: "Schaars geklede-mannen ronde"
+  name: "Schaars geklede-mannen ronde (sponsored by EasyToys)"
   time: 19u00
 -
-  description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter! Opgelet: loop tijdens deze ronde aan de buitenkant, ook hier zijn er geen motorische voertuigen toegestaan en geldt de maximale breedte van 1,5m!"
-  name: "Draag-de-praeses ronde"
+  description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter!"
+  name: "Draag-de-praeses ronde (sponsored by Bocca)"
   time: 20u00
