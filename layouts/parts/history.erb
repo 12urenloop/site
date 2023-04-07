@@ -1,0 +1,30 @@
+<div id='history'>
+    <div class='sixteen columns'>
+      <h2 class='yellow'><span class='lines'>Historiek</span></h2>
+    </div>
+
+    <div class='clear'></div>
+
+    <section class="timeline">
+      <ol>
+        <% data_from(:history).each do |y| %>
+        <li>
+          <div>
+            <time><%= y['date'] %></time> <%= y['team'] %>
+          </div>
+        </li>
+        <% end %>
+        <li></li>
+      </ol>
+
+      <div class="arrows">
+        <button class="arrow arrow__prev disabled timeline-btn" disabled>
+          <img src="/images/arrow_prev.svg" alt="prev timeline arrow">
+        </button>
+        <button class="arrow arrow__next timeline-btn">
+          <img src="/images/arrow_next.svg" alt="next timeline arrow">
+        </button>
+      </div>
+    </section>
+
+</div> <!-- end history -->
