@@ -1,10 +1,12 @@
 <div class='four columns'>
 <table class='schedule white'>
   <% @teams.each_with_index do |t,i| %>
-    <tr>
-      <th><%= i + 1 + @offset %>.</th>
-      <td><%= t %></td>
-    </tr>
+    <% if t.to_s.length > 0 %>
+      <tr>
+        <th><%= i + 1 + @offset %>.</th>
+        <td><%= t %></td>
+      </tr>
+    <% end %>
   <% end %>
 </table>
 </div>
