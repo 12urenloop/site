@@ -17,6 +17,7 @@
     function init() {
         setEqualHeights(elH);
         animateTl(xScrolling, arrows, timeline);
+        scrollToMostRecent();
         setSwipeFn(timeline, arrowPrev, arrowNext);
         setKeyboardFn(arrowPrev, arrowNext);
     }
@@ -65,7 +66,6 @@
 
     // ANIMATE TIMELINE
     function animateTl(scrolling, el, tl) {
-        let counter = 0;
         for (let i = 0; i < el.length; i++) {
             el[i].addEventListener("click", function() {
                 if (!arrowPrev.disabled) {
@@ -75,24 +75,30 @@
                     arrowNext.disabled = true;
                 }
                 const sign = (this.classList.contains("arrow__prev")) ? "" : "-";
-                if (counter === 0) {
-                    tl.style.transform = `translateX(-${scrolling}px)`;
-                } else {
-                    const tlStyle = getComputedStyle(tl);
-                    // add more browser prefixes if needed here
-                    const tlTransform = tlStyle.getPropertyValue("-webkit-transform") || tlStyle.getPropertyValue("transform");
-                    const values = parseInt(tlTransform.split(",")[4]) + parseInt(`${sign}${scrolling}`);
-                    tl.style.transform = `translateX(${values}px)`;
-                }
+
+                const tlStyle = getComputedStyle(tl);
+                // add more browser prefixes if needed here
+                const tlTransform = tlStyle.getPropertyValue("-webkit-transform") || tlStyle.getPropertyValue("transform");
+                const values = parseInt(tlTransform.split(",")[4]) + parseInt(`${sign}${scrolling}`);
+                tl.style.transform = `translateX(${values}px)`;
 
                 setTimeout(() => {
                     isElementInViewport(firstItem) ? setBtnState(arrowPrev) : setBtnState(arrowPrev, false);
                     isElementInViewport(lastItem) ? setBtnState(arrowNext) : setBtnState(arrowNext, false);
                 }, 1100);
-
-                counter++;
             });
         }
+    }
+
+    function scrollToMostRecent() {
+        const width = (window.innerWidth || document.documentElement.clientWidth);
+        let scrollAmount = width - lastItem.getBoundingClientRect().right;
+        // Make sure scrollAmount is a multiple of xScrolling
+        scrollAmount = (Math.ceil(scrollAmount / xScrolling) - 1) * xScrolling;
+        timeline.style.transform = `translateX(${scrollAmount}px)`;
+        // Disable arrowNext and enable arrowPrev
+        setBtnState(arrowNext, true);
+        setBtnState(arrowPrev, false);
     }
 
     // ADD SWIPE SUPPORT FOR TOUCH DEVICES
