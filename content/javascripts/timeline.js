@@ -112,11 +112,6 @@
     function setKeyboardFn(prev, next) {
         document.addEventListener("keydown", (e) => {
             if ((e.which === 37) || (e.which === 39)) {
-                const timelineOfTop = timeline.offsetTop;
-                const y = window.pageYOffset;
-                if (timelineOfTop !== y) {
-                    window.scrollTo(0, timelineOfTop);
-                }
                 if (e.which === 37) {
                     prev.click();
                 } else if (e.which === 39) {
