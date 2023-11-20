@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'nanoc', '~> 4'
-gem 'coffee-script'
 gem 'mini_racer'
 
 group :development do
