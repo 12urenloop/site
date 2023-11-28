@@ -2,12 +2,7 @@
   href: http://www.stad.gent/sport
   src: images/sponsors/gent_sportdienst.png
   alt: Stad Gent
-  title: Spordienst Stad Gent
-  columns: two
--
-  href: http://www.augent.be
-  src: images/sponsors/associatie-ugent.png
-  alt: Associatie UGent
+  title: Sportdienst Stad Gent
   columns: two
 -
   href: http://ugent.be
@@ -16,6 +11,6 @@
   columns: two
 -
   href: https://zeus.ugent.be
-  src: images/sponsors/zeus.png
+  src: images/sponsors/zeus.svg
   alt: Zeus WPI
   columns: two
