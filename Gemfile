@@ -11,5 +11,6 @@ end
 group :nanoc do
   gem 'guard-nanoc'
   gem 'nanoc-dart-sass'
+  gem 'terser'
 end
 

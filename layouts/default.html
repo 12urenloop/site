@@ -5,22 +5,22 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <html lang="en">
   <head>
+    <link rel="preload" as="image" href="/images/bg1.webp">
+    <link rel="preload" as="image" href="/images/icn-instagram-intro2.png">
+    <link rel="preload" as="image" href="/images/icn-facebook-intro.png">
+
     <meta charset="utf-8">
     <title>Gentse 12urenloop</title>
     <meta name="description" content="De Gentse 12urenloop is een jaarlijks sportief studentenevement op het Sint-Pietersplein in Gent">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fc0"/>
 
-    <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" fetchpriority="low">
     <link rel="stylesheet" href="/stylesheets/base.css">
-    <link rel="stylesheet" href="/stylesheets/skeleton.css">
-    <link rel="stylesheet" href="/stylesheets/flexslider.css">
-    <link rel="stylesheet" href="/stylesheets/prettyPhoto.css">
+    <link rel="stylesheet" href="/stylesheets/skeleton.css" fetchpriority="low">
     <link rel="stylesheet" href="/stylesheets/layout.css">
     <link rel="stylesheet" href="/stylesheets/countdown.css">
-    <link rel="stylesheet" href="/stylesheets/regeling.css">
-    <link rel="stylesheet" href="/stylesheets/timeline.css">
+    <link rel="stylesheet" href="/stylesheets/timeline.css" fetchpriority="low">
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,15 +52,13 @@
   <body>
     <%= yield %>
 
-    <script src="https://code.jquery.com/jquery-1.7.2.min.js"></script>
-    <script src="/javascripts/jquery.sticky.js" type="text/javascript"></script>
-    <script src="/javascripts/jquery.inview.js" type="text/javascript"></script>
-    <script src="/javascripts/smooth-scroll.js" type="text/javascript"></script>
-    <script src="/javascripts/jquery.flexslider.js" type="text/javascript"></script>
-    <script src="/javascripts/jquery.prettyPhoto.js" type="text/javascript"></script>
-    <script src="/javascripts/moment.js" type="text/javascript"></script>
-    <script src="/javascripts/countdown.js" type="text/javascript"></script>
-    <script src="/javascripts/hammer.min.js" type="text/javascript"></script>
-    <script src="/javascripts/timeline.js" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.7.2.min.js" defer></script>
+    <script src="/javascripts/jquery.sticky.js" defer type="text/javascript"></script>
+    <script src="/javascripts/jquery.inview.js" defer type="text/javascript"></script>
+    <script src="/javascripts/smooth-scroll.js" defer type="text/javascript"></script>
+    <script src="/javascripts/moment.js" defer type="text/javascript"></script>
+    <script src="/javascripts/countdown.js" defer type="text/javascript"></script>
+    <script src="/javascripts/hammer.min.js" defer type="text/javascript"></script>
+    <script src="/javascripts/timeline.js" defer type="text/javascript"></script>
   </body>
 </html>

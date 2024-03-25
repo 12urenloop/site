@@ -77,16 +77,6 @@
 
     <div class='clear'></div>
 
-    <div class='container'>
-      <div class='flexslider'>
-        <ul class='slides'>
-          <% data_from(:sliderimages).each do |img| %>
-            <li><img src='<%= img['src'] %>' alt='' /></li>
-          <% end %>
-        </ul>
-      </div><!-- end flexslider -->
-    </div>
-
     <div class='sponsors container'>
       <% data_from(:sponsors).each_slice(4) do |row| %>
       <%= render '/partials/sponsors.*', sponsors: row %>

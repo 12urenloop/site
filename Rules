@@ -13,6 +13,10 @@ route '/stylesheets/**/*' do
   "#{item.identifier.without_ext}.css"
 end
 
+compile '/**/*.js' do
+  filter :uglify_js
+end
+
 route '/javascripts/**/*' do
   "#{item.identifier.without_ext}.js"
 end

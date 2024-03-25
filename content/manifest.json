@@ -1,5 +1,8 @@
 {
   "name": "12urenloop",
+  "theme_color": "#fc0",
+  "start_url": "/",
+  "display": "standalone",
   "icons": [
     {
       "src": "\/android-chrome-36x36.png",

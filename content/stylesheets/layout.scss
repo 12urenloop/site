@@ -275,6 +275,10 @@ p.separator {
 
 #intro .bg1 {
     background-image: url(../images/bg1.jpg);
+    background-image: image-set(
+                    url(../images/bg1.webp) type("image/webp"),
+                    url(../images/bg1.jpg) type("image/jpeg")
+    );
 }
 
 #separator1 {
@@ -284,6 +288,10 @@ p.separator {
 
 #separator1 .bg2 {
     background-image: url(../images/bg2.jpg);
+    background-image: image-set(
+                    url(../images/bg2.webp) type("image/webp"),
+                    url(../images/bg2.jpg) type("image/jpeg")
+    );
 }
 
 #separator2 {
@@ -293,6 +301,10 @@ p.separator {
 
 #separator2 .bg3 {
     background-image: url(../images/bg3.jpg);
+    background-image: image-set(
+                    url(../images/bg3.webp) type("image/webp"),
+                    url(../images/bg3.jpg) type("image/jpeg")
+    );
 }
 
 #separator3 {
@@ -302,6 +314,10 @@ p.separator {
 
 #separator3 .bg4 {
     background-image: url(../images/bg4.jpg);
+    background-image: image-set(
+                    url(../images/bg4.webp) type("image/webp"),
+                    url(../images/bg4.jpg) type("image/jpeg")
+    );
 }
 
 #separator4 {
@@ -311,6 +327,10 @@ p.separator {
 
 #separator4 .bg5 {
     background-image: url(../images/bg5.jpg);
+    background-image: image-set(
+                    url(../images/bg5.webp) type("image/webp"),
+                    url(../images/bg5.jpg) type("image/jpeg")
+    );
 }
 
 nav {
@@ -463,8 +483,16 @@ p.mid-text {
     margin-top: 40px;
 }
 
+#wedstrijd, #locatie, #contact, #history {
+  background-image: url(../images/bg-dark.jpg);
+  background-image: image-set(
+                  url(../images/bg-dark.webp) type("image/webp"),
+                  url(../images/bg-dark.jpg) type("image/jpeg")
+  );
+  background-repeat: repeat;
+}
+
 #wedstrijd {
-    background: url(../images/bg-dark.jpg) repeat;
     position: relative;
     z-index: 300;
     padding-top: 40px;
@@ -484,7 +512,6 @@ p.mid-text {
 }
 
 #locatie {
-    background: url(../images/bg-dark.jpg) repeat;
     z-index: 300;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -498,7 +525,6 @@ p.mid-text {
 }
 
 #contact {
-    background: url(../images/bg-dark.jpg) repeat;
     position: relative;
     z-index: 300;
     padding-top: 20px;
@@ -507,7 +533,6 @@ p.mid-text {
 }
 
 #history {
-    background: url(../images/bg-dark.jpg) repeat;
     position: relative;
     z-index: 300;
     padding-top: 40px;

@@ -2,7 +2,7 @@
 <% @sponsors.each do |s| %>
 <div class='sponsor' style="width: 120px;">
   <a href='<%= s['href'] %>'>
-    <img src='<%= s['src'] %>' alt='<%= s['alt'] %>' <% if s['title'].to_s.length > 0 %> title='<%= s['title'] %> <% end %>'/>
+    <img src='<%= s['src'] %>' alt='<%= s['alt'] %>' width="120" <% if s['title'].to_s.length > 0 %> title='<%= s['title'] %> <% end %>'/>
   </a>
 </div>
 <% end %>
