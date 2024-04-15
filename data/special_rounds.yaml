@@ -1,46 +1,46 @@
 
 ---
 -
-  description: "Haal de IT’er in je naar boven en verkleed je in je favoriete app, website, computervirus, …"
-  name: "digITale ronde (sponsored by Inetum Realdolmen)"
+  description: "Als student dien je zelfstandig te zijn, hoewel dat soms uitdagender is dan je denkt. Hoe goed kun jij echt op eigen benen staan? Laat je bekwaamheid zien en loop deze ronde met getapete benen zo snel mogelijk uit. Kun jij een evenwicht vinden in het studentenleven?"
+  name: "Op eigen benen staan (sponsored by Solidaris)"
   time: 10u00
 -
-  description: "We kijken alvast wat vooruit in de toekomst en richten ons voor deze ronde op de zomer. Draag in deze ronde een outfit die ons helemaal in de vakantiesfeer brengt en hang alvast de toerist uit op het Sint-Pietersplein"
-  name: "Vakantie ronde (sponsored by Solidaris)"
+  description: "Maak jullie helemaal klaar voor de Grand Prix Formule 1 van Miami en bouw een racewagen met een twist. De twist? Laat ons zeggen dat de racewagen al betere races heeft gereden. Bouw een racewagen die volgens jullie perte total en gecrashed is tijdens de race tour."
+  name: "ce to miami tour crash (sponsored by AG Insurance)"
   time: 11u00
 -
-  description: "(Nine) make a rhyme! Voor deze duo ronde is het de bedoeling dat je je verkleed als 2 woorden die op elkaar rijmen, bijvoorbeeld James Bond en Legally Blond. Hoe creatiever, hoe beter."
-  name: "Duo ronde (sponsored by Stëlz)"
+  description: "Attention party people! Take a Peterman-shot want het is tijd om terug te gaan naar de 80’s! Neonkleuren, legwarmers of eerder punky? Iedereen deed het! Dus trek je meest fancy kleding aan en show je favoriete 80’’s trend-set tijdens de ronde!"
+  name: "Peterman Vice (sponsored by Peterman)"
   time: 12u00
 -
-  description: "Ter ere van de nieuwste smaak voor deze zomer dagen we je uit voor een aardbei-abrikoos-race! Ren met 2 met een aardbei of abrikoos tussen de mond geperst zo snel mogelijk een rondje."
-  name: "Summer Edition ronde (sponsored by Red Bull)"
+  description: "Altijd al gedroomd om jouw eigen studentencafé te kunnen zijn? Of herinner je je nog goed in welk café uit overpoort je de tofste tijden beleefde? Verkleed je voor deze ronde in je favoriete café uit overpoort en vereer jouw café."
+  name: "Verkleden in je favoriete cafe - overpoortcafé"
   time: 13u00
 -
-  description: "We’re going on a trip in our favorite rocket ship… maak je klaar voor de missie en bouw een ruimteschip. Beoordeling op snelheid (getimed)."
-  name: "Ruimteschip race ronde (sponsored by Peterman)"
+  description: "Wie houdt er nu niet van reizen? Genieten van de zon, zwemmen in de zee of de cultuur opsnuiven is één van de leukste ervaringen. Tover jezelf in een cultureel monument en daag ons uit om te raden waar je bent geweest!"
+  name: "Met EF op pad, door tijd en stad! (sponsored by EF Education First)"
   time: 14u00
 -
-  description: "Hoe dierbaar is die halve liter voor jou? Heb jij na de eindstreep nog een volle pint over? Kom over de finishlijn met een zo vol mogelijke beker, en brul onderweg je favoriete cantuslliedje. Deze ronde wordt beoordeeld op het hebben van de volste pint aan de finishlijn. Bij een gelijkstand zal er gekeken worden naar wie het snelste was."
-  name: "Cantus ronde (sponsored by Alken-Maes)"
+  description: "Ter ere van de nieuwe ‘Wings for life’ campagne halen we letterlijk onze vleugels naar boven. Verkleed je in een engel en laat je op handen dragen, letterlijk, gedurende de ronde. Dit is toegestaan tot een maximum van 3 personen, 2 dragers en 1 engel."
+  name: "Red Bull geeft je vleugels (sponsored by Red Bull)"
   time: 15u00
 -
-  description: "Door welk wezen is jouw studentenvereniging gebrainwasht? Verkleed je zo origineel mogelijk en geniet samen van een buitenaards feestje!"
-  name: "Buitenaardse ronde (sponsored by AG Insurance)"
+  description: "De klassieker…. wie finisht er het snelst na het verslinden van een julientje? Rol of loop jij de ronde uit?"
+  name: "Julientjesronde  (sponsored by Stefano’s)"
   time: 16u00
 -
-  description: "De klassieker…. wie finisht er het snelst na het verslinden van een Julientje? Rol of loop jij de ronde uit?"
-  name: "Julientjes ronde (sponsored by Buzzy Snacks)"
+  description: "Trek die stoute schoenen aan (en zo weinig mogelijk kleren) en probeer die finish als eerste te bereiken"
+  name: "Schaars geklede vrouwen ronde"
   time: 17u00
 -
-  description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning!"
-  name: "Schaars geklede-mannen ronde (sponsored by EasyToys)"
+  description: "Hoe dierbaar is die halve liter voor jou? Breng jouw pint op zo een origineel mogelijke manier naar de finishlijn. Deze ronde wordt natuurlijk beoordeeld op originaliteit en is toegestaan tot 2 personen."
+  name: "Op originele manier pintje rondbrengen"
   time: 18u00
 -
-  description: "Trek die stoute schoenen aan (en zo weinig mogelijk kleren) en probeer die finish als eerste te bereiken."
-  name: "Schaars geklede-vrouwen ronde (sponsored by EasyToys)"
+  description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning!"
+  name: "Schaars geklede mannen ronde"
   time: 19u00
 -
   description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter!"
-  name: "Draag-de-praeses ronde (sponsored by Bocca)"
+  name: "Draag-de-praeses ronde"
   time: 20u00
