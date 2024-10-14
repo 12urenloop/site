@@ -1,6 +1,6 @@
 const countdown = () => {
   let strings = {}
-  let diff = Math.max(0, Math.round(moment('2024042409', 'YYYYMMDDHH').diff(moment()) / 1000))
+  let diff = Math.max(0, Math.round(moment('2025042909', 'YYYYMMDDHH').diff(moment()) / 1000))
 
   // Days
   const days = Math.floor(diff / 86400)
