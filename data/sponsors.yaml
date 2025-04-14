@@ -11,14 +11,6 @@
   src: images/sponsors/ag_insurance.jpg
   alt: AG Insurance
 -
-  href: https://kinepolis.be/nl
-  src: images/sponsors/kinepolis.png
-  alt: Kinepolis Gent
--
-  href: https://www.solidaris-vlaanderen.be
-  src: images/sponsors/solidaris.png
-  alt: Solidaris
--
   href: https://www.bmsnacks.be
   src: images/sponsors/buysse.jpg
   alt: Buysse Snacks
@@ -30,3 +22,11 @@
   href: https://www.jandenul.com/
   src: images/sponsors/jan_de_nul_group.jpg
   alt: Jan De Nul Group
+-
+  href: https://radarwerk.be/
+  src: images/sponsors/radarwerk.png
+  alt: Radarwerk
+-
+  href: https://summerbash.be/
+  src: images/sponsors/summerbash.webp
+  alt: Summerbash
