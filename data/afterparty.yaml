@@ -1,33 +1,39 @@
 -
+  time: 12u
+  description: MAT
+-
   time: 13u
-  description: Indecks
+  description: Tibalt
 -
   time: 14u
-  description: woefbass
+  description: FLO C
 -
   time: 15u
-  description: DJ No Limits
+  description: Styn
 -
   time: 16u
-  description: DJ Cappi
+  description: DJ Mielus
 -
   time: 17u
-  description: VNDLS
+  description: Kezze
 -
   time: 18u
-  description: Bucky
+  description: DJ Mau
 -
   time: 19u
-  description: Helios
+  description: DJ Lama
 -
   time: 20u
-  description: DJ Triplet
+  description: Whosalp
 -
   time: 21u30
-  description: Hide 'n Seek'
+  description: Diètro
+-
+  time: 22u15
+  description: TRSTN
 -
   time: 23u
-  description: Sti-Jen
+  description: Adix
 -
-  time: 00u30
-  description: Bonuzz
+  time: 00u
+  description: Denoo

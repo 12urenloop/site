@@ -1,46 +1,46 @@
 
 ---
 -
-  description: "Als student dien je zelfstandig te zijn, hoewel dat soms uitdagender is dan je denkt. Hoe goed kun jij echt op eigen benen staan? Laat je bekwaamheid zien en loop deze ronde met getapete benen zo snel mogelijk uit. Kun jij een evenwicht vinden in het studentenleven?"
-  name: "Op eigen benen staan (sponsored by Solidaris)"
+  description: "verkleed jullie zo goed mogelijk als Rick en Morty."
+  name: "Duo ronde (sponsored by Solidaris)"
   time: 10u00
 -
-  description: "Maak jullie helemaal klaar voor de Grand Prix Formule 1 van Miami en bouw een racewagen met een twist. De twist? Laat ons zeggen dat de racewagen al betere races heeft gereden. Bouw een racewagen die volgens jullie perte total en gecrashed is tijdens de race tour."
-  name: "ce to miami tour crash (sponsored by AG Insurance)"
+  description: "Verzekeringen geven je rust, maar jouw look zorgt voor de fun. Toon ons: wie ben jij in 2075?"
+  name: "Wat brengt de toekomst? (sponsored by AG)"
   time: 11u00
 -
-  description: "Attention party people! Take a Peterman-shot want het is tijd om terug te gaan naar de 80’s! Neonkleuren, legwarmers of eerder punky? Iedereen deed het! Dus trek je meest fancy kleding aan en show je favoriete 80’’s trend-set tijdens de ronde!"
-  name: "Peterman Vice (sponsored by Peterman)"
+  description: "Bouw of wordt een vliegend gevaar - op wieltjes natuurlijk! Van luchtballon tot steampunk zeppelin: alles mag, zolang het indruk maakt. Opgelet: loop tijdens deze ronde aan de buitenkant, ook zijn er geen motorische voertuigen toegestaan, niet breder dan 1.5m en niet hoger dan 2m."
+  name: "Steam & sky parade (sponsored by Red Bull)"
   time: 12u00
 -
-  description: "Altijd al gedroomd om jouw eigen studentencafé te kunnen zijn? Of herinner je je nog goed in welk café uit overpoort je de tofste tijden beleefde? Verkleed je voor deze ronde in je favoriete café uit overpoort en vereer jouw café."
-  name: "Verkleden in je favoriete cafe - overpoortcafé"
+  description: "Voor studenten die niet bang zijn om te werken – met hun hoofd én hun handen. Volledig in het groen? Van jas tot broek, met stevige werkbottines eronder. Statement en stijl in één. Radarwerk is voor wie werk ziet als iets moois – en zich daar ook naar kleedt. Voor studenten die niet bang zijn om te werken – met hun hoofd én hun handen."
+  name: "Radarwerk kleurt groen"
   time: 13u00
 -
-  description: "Wie houdt er nu niet van reizen? Genieten van de zon, zwemmen in de zee of de cultuur opsnuiven is één van de leukste ervaringen. Tover jezelf in een cultureel monument en daag ons uit om te raden waar je bent geweest!"
-  name: "Met EF op pad, door tijd en stad! (sponsored by EF Education First)"
+  description: "Verkleed je als een knotsgekke uitvinding in de kleuren van je vereniging - hoe creatiever, hoe beter."
+  name: "Uitvindingen Ronde"
   time: 14u00
 -
-  description: "Ter ere van de nieuwe ‘Wings for life’ campagne halen we letterlijk onze vleugels naar boven. Verkleed je in een engel en laat je op handen dragen, letterlijk, gedurende de ronde. Dit is toegestaan tot een maximum van 3 personen, 2 dragers en 1 engel."
-  name: "Red Bull geeft je vleugels (sponsored by Red Bull)"
+  description: ""
+  name: "Verkleed je in Desperados-style cowboys: neon western, rave-outlaws, sombrero-glam (sponsored by desperados)"
   time: 15u00
 -
-  description: "De klassieker…. wie finisht er het snelst na het verslinden van een julientje? Rol of loop jij de ronde uit?"
-  name: "Julientjesronde  (sponsored by Stefano’s)"
+  description: "De klassieker… Wie finisht er het snelst na het verslinden van een julientje? Rol of loop jij de ronde uit?"
+  name: "Julientjesronde"
   time: 16u00
 -
-  description: "Trek die stoute schoenen aan (en zo weinig mogelijk kleren) en probeer die finish als eerste te bereiken"
-  name: "Schaars geklede vrouwen ronde"
+  description: "Trek je mooiste of meest comfy pyjama aan (jij kiest!)., zolang je maar zo snel mogelijk de finish bereikt."
+  name: "Pyjama ronde vrouwen"
   time: 17u00
 -
-  description: "Hoe dierbaar is die halve liter voor jou? Breng jouw pint op zo een origineel mogelijke manier naar de finishlijn. Deze ronde wordt natuurlijk beoordeeld op originaliteit en is toegestaan tot 2 personen."
-  name: "Op originele manier pintje rondbrengen"
+  description: "Hoe dierbaar is een halve liter voor jou? Breng jouw pint op zo een originele manier naar de finishlijn. Let op: er moet nog de helft bier in het voorwerp aanwezig zijn."
+  name: "Bierronde (sponsored by Maes)"
   time: 18u00
 -
-  description: "Laat die kleren maar achterwege mannen (ook weer niet alles!) en sprint naar de overwinning!"
-  name: "Schaars geklede mannen ronde"
+  description: "Onesie of boxershort? Alles kan, niet moet… behalve lopen! Loop snel, schaamteloos en in stijl naar de finish."
+  name: "Pyjama ronde mannen"
   time: 19u00
 -
-  description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter!"
-  name: "Draag-de-praeses ronde"
+  description: "Draag je praeses zo origineel mogelijk over de eindmeet! Hoe indrukwekkender, hoe beter! Opgelet: loop tijdens deze ronde aan de buitenkant, ook zijn er geen motorische voertuigen toegestaan, niet breder dan 1.5m en niet hoger dan 2m."
+  name: "Draag de praeses ronde"
   time: 20u00
