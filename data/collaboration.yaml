@@ -14,3 +14,8 @@
   src: images/sponsors/zeus.svg
   alt: Zeus WPI
   columns: two
+-
+  href: https://gentsestudentenraad.be
+  src: images/sponsors/originals/gsr.png
+  alt: Gentse studentenraad
+  columns: two
