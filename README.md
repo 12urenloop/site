@@ -1,3 +1,5 @@
+# NOTE: NO LONGER USED AS OF 2026
+
 # Site
 
 Site for 12urenloop Gent.
